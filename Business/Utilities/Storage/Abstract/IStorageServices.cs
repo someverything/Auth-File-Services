@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Business.Utilities.Storage.Abstract
 {
-    public interface IStorageService : IStorage
+    public interface IStorageServices : IStorage
     {
         public string StorageName { get; }
     }
